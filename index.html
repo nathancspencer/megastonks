@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>MEGASTONKS</h1>
+
+<form>
+How regurlarly do you invest (in weeks)? <input type="number" id="number1" /><br><br>
+How much do you invest each time ($)? <input type="number" id="number2" /><br><br>
+What % return do you expect (each year)? <input type="number" id="number3" /><br><br>
+
+<button type="button" onclick="showChart()">Compare Broker Returns</button>
+
+<p>&nbsp;</p>
+
+<div id="myPlot" style="width:100%;max-width:800px"></div>
+
+  </form>
+  <script src="main.js"></script>
+
+</body>
+
+<div id="fyPlot" style="width:100%;max-width:800px"></div>
+
+  </form>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
